@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AssignmentLab2</string>
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="email_address_required">Email Address (required)</string>
+    <string name="password_required">Password (required)</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_a_new_account">Create a new Account</string>
+    <string name="welcome_tim_miu_edu">Welcome tim@miu.edu</string>
+    <string name="shop_by_categories">Shop by Categories</string>
+    <string name="clothing">Clothing</string>
+    <string name="books">Books</string>
+    <string name="medicines">Medicines</string>
+    <string name="organic_foods">Organic Foods</string>
+    <string name="create_your_account">Create your account</string>
+    <string name="required_field">* required field</string>
+    <string name="first_name">First Name*</string>
+    <string name="last_name">Last Name*</string>
+    <string name="email_address">Email Address*</string>
+    <string name="password">Password*</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="result">Result</string>
+    <string name="first_number">First Number</string>
+    <string name="second_number">Second Number</string>
+    <string name="view_calculator">View Calculator</string>
+</resources>
