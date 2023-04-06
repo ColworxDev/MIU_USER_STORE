@@ -12,6 +12,6 @@ Assignment to create user, login, view categories, do some calculations etc on a
 
   <img src="forgetPassword.png" width="150" >
  
-    <img src="Screenshot_20230406_173220.png" width="150" >
+  <img src="Screenshot_20230406_173220.png" width="150" >
      
 </div>
