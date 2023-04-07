@@ -27,23 +27,23 @@ class CalcActivity : AppCompatActivity() {
 
         //this is a plus button
         binding.buttonPlus.setOnClickListener {
-            showMsg((number1 + number2).toString())
+            showMsg( "$number1+$number2 = ${(number1 + number2)}")
         }
 
         //this is a minus button
         binding.buttonMinus.setOnClickListener {
-            showMsg((number1 - number2).toString())
+            showMsg( "$number1-$number2 = ${(number1 - number2)}")
         }
 
         //this is a * button
         binding.buttonMulti.setOnClickListener {
-            showMsg((number1 * number2).toString())
+            showMsg( "$number1*$number2 = ${(number1*number2)}")
         }
 
 
         //this is a / button
         binding.buttonDiv.setOnClickListener {
-            showMsg((number1 / number2).toString())
+            showMsg( "$number1/$number2 = ${(number1 / number2)}")
         }
 
     }

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -47,7 +46,9 @@
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="15dp"
         android:ems="10"
+        android:padding="5dp"
         android:inputType="textEmailAddress"
+        android:background="@drawable/button_border"
         app:layout_constraintBottom_toTopOf="@+id/txtPassword"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline1" />
@@ -69,6 +70,8 @@
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="50dp"
         android:ems="10"
+        android:padding="5dp"
+        android:background="@drawable/button_border"
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -89,6 +92,7 @@
 
     <Button
         android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
@@ -104,7 +108,7 @@
         android:id="@+id/divider2"
         android:layout_width="0dp"
         android:layout_height="1dp"
-        android:layout_marginEnd="5dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="26dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toTopOf="@+id/btnCreate"
@@ -127,7 +131,7 @@
         android:id="@+id/divider3"
         android:layout_width="0dp"
         android:layout_height="1dp"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="10dp"
         android:layout_marginBottom="26dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toTopOf="@+id/btnCreate"
@@ -151,21 +155,20 @@
 
     <Button
         android:id="@+id/btnCreate"
-        style="@drawable/button_border"
+        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
         android:text="@string/create_a_new_account"
         android:textAllCaps="false"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@android:color/holo_blue_light"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline1"
-        app:strokeColor="#C81818"
-        app:strokeWidth="2dp" />
+
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
